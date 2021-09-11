@@ -1,0 +1,150 @@
+.header-block {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+.nav-ul {
+	display: flex;
+}
+li {
+	margin-right: 20px;
+}
+.header-bg {
+	background-image: url(../image/Group5.jpg);
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.nav-a {
+	color: #fff;
+}
+.title-header {
+	font-size: 100px;
+	color: white;
+	font-family: 'Lato';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.left-block {
+	background-color: #FFFFFF;
+	width: 50%;
+}
+.right-block {
+	width: 50%;
+	background-color: red;
+}
+.box-bgimage {
+	background-image: url(../image/Rectangle2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 601px;
+	background-position: center;
+}
+.wraper-box {
+	display: flex;
+	background-size: cover;
+}
+.button {
+	height: 72px;
+	width: 307px;
+	background-color: #325DFF;
+	border-radius: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-left: 82px;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #FAFAFA;
+
+}
+.line1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 119px;
+	padding-top: 62px;
+}
+.box1 {
+	width: 371px;
+	height: 374px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.icon {
+	width: 88px;
+	height: 88px;
+	background-color: #325DFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text {
+	width: 250px;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 16px;
+}
+.box1:nth-child(1),
+.box1:nth-child(2),
+.box1:nth-child(3) {
+	margin-bottom: 25px;
+}
+.title {
+	width: 468px;
+	height: 186px;
+	margin: 0 auto;
+	text-align: left;
+	font-family:  'Lato';
+	font-size: 50px;
+	margin-bottom: 24px;
+	margin-top: 90px;
+}
+.text1 {
+	height: 128px;
+	width: 457px;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.title1 {
+	width: 570px;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Lato';
+	font-size: 35px;
+	padding-top: 77px;
+}
+.text2 {
+	width: 771px;
+	height: 71px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Lato';
+	font-size: 16px;
+}
+h3 {
+	font-family: 'Lato';
+	font-size: 18px;
+	margin-top: 27px;
+	margin-bottom: 11px;
+}
+
+
+
+
+
